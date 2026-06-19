@@ -16,7 +16,7 @@ const sidebarGenerate = (
         text: name,
         items: items.map(({ name, relative }) => ({
             text: name,
-            link: `${root}/${relative}`,
+            link: `${root.replace(/\/$/, "")}/${relative.replace(/^\//, "")}`,
         }))
     }]
 })

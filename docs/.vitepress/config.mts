@@ -15,7 +15,11 @@ export default defineConfig({
     sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/TongLeen/' }
-    ]
+    ],
+    footer: {
+      // message: '',
+      copyright: 'tong.leen@outlook.com | Copyright © 2026 TongLeen | Apache 2.0 | 转载请注明出处'
+    },
   },
   markdown: {
     config: (md) => {

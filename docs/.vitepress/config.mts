@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import katex from '@vscode/markdown-it-katex'
 import attr from 'markdown-it-attrs'
+// ts: ignore
+import { FullSearchPlugin } from 'vitepress-plugin-fullsearch'
 
 import nav from './nav'
 import sidebar from './sidebar'
@@ -27,4 +29,9 @@ export default defineConfig({
       md.use(attr)
     },
   },
+  vite: {
+    plugins: [
+      FullSearchPlugin()
+    ]
+  }
 })

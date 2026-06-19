@@ -1,14 +1,17 @@
 {
-  "dependencies": {},
   "devDependencies": {
     "@vscode/markdown-it-katex": "^1.1.2",
     "katex": "^0.17.0",
     "markdown-it-attrs": "^5.0.0",
-    "vitepress": "^1.6.4"
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-fullsearch": "^2.1.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "flexsearch": "^0.8.212"
   }
 }

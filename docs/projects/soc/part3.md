@@ -84,8 +84,6 @@ C 程序依赖的初始化只有两个：栈指针（Stack Pointer，SP）初始
 
 ### 硬件部分
 
-=== 接口信号的简化
-
 这里将使用 SystemVerilog 的接口`interface`，将原先设计中的单一连线打包成一个接口，实现连线的简化。
 
 这里完成了三个`interface`，包括主机与AHB互联的`AHBlite_Master_inf`、AHB从机与互联的`AHBlite_Slave_inf`以及APB从设备与APB桥使用的`APB_inf`。

@@ -35,13 +35,15 @@ jobs:
       - name: Build project
         run: bun run docs:build
 
+      - name: Create CNAME file
+        run: echo "blog.tongleen.art" > ./docs/.vitepress/dist/CNAME
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 指定要上传的构建产物目录，通常是 'dist'
           path: './docs/.vitepress/dist'  
 
       - name: Deploy to GitHub Pages

@@ -3,6 +3,7 @@
 
 > 这是一门来自**电子科技大学**的选修课
 
+项目全部代码位于 [GitHub](https://github.com/TongLeen/SoC-Course-Design/)
 
 ## 片上系统 SoC 是什么？
 

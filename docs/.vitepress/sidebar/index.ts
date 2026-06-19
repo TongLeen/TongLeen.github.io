@@ -1,5 +1,5 @@
 import { DefaultTheme } from "vitepress";
-import TechnologySidebar from "./technology";
+import TechnologySidebar from "./projects";
 
 type Sidebar = DefaultTheme.SidebarMulti
 

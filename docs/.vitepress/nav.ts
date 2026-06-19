@@ -6,10 +6,14 @@ const nav: NavItem[] = [
     { text: 'Home', link: '/' },
     {
         text: '项目实践', items: [
-            { text: '机器学习', link: '/projects/machine-learning/part1.md' },
             { text: 'SoC 设计', link: '/projects/soc/' },
         ]
     },
+    {
+        text: '半导体物理', items: [
+            { text: 'GaN HEMT', link: '/semiconductor/GaN-HEMT/' },
+        ]
+    }
 ]
 
 export default nav;

@@ -32,6 +32,13 @@ export default defineConfig({
   vite: {
     plugins: [
       FullSearchPlugin()
-    ]
+    ],
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler',
+        },
+      },
+    }
   }
 })

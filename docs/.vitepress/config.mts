@@ -23,6 +23,12 @@ export default defineConfig({
       copyright: 'tong.leen@outlook.com | Copyright © 2026 TongLeen | Apache 2.0 | 转载请注明出处'
     },
   },
+  head: [
+    [
+      'link',
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/jsxgraph@1.9.0/distrib/jsxgraph.css' }
+    ]
+  ],
   markdown: {
     config: (md) => {
       md.use((katex as any).default ?? katex)

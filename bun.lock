@@ -5,6 +5,7 @@
     "": {
       "dependencies": {
         "flexsearch": "^0.8.212",
+        "jsxgraph": "^1.12.2",
       },
       "devDependencies": {
         "@vscode/markdown-it-katex": "^1.1.2",
@@ -345,6 +346,8 @@
     "is-glob": ["is-glob@4.0.3", "", { "dependencies": { "is-extglob": "^2.1.1" } }, "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg=="],
 
     "is-what": ["is-what@5.5.0", "", {}, "sha512-oG7cgbmg5kLYae2N5IVd3jm2s+vldjxJzK1pcu9LfpGuQ93MQSzo0okvRna+7y5ifrD+20FE8FvjusyGaz14fw=="],
+
+    "jsxgraph": ["jsxgraph@1.12.2", "", { "dependencies": { "jsxgraph": "^1.11.0-beta2" } }, "sha512-7kTscexFVBHirsBrxZFQg2hA6Mf/Pa2piojNgxHZ9i/rQfxDAaq7p8oD9/009clQTFQ9fNLUpmDKwV+84zA2Gg=="],
 
     "katex": ["katex@0.17.0", "", { "dependencies": { "commander": "^8.3.0" }, "bin": { "katex": "cli.js" } }, "sha512-Vdw0ATsQ9V+LuegM/BTwQqV/6cTl5lbGcIrU+BCgLxyf6bo38ybOr372tuSIxir3CN720flu1meYR6XzNMwQnw=="],
 

@@ -12,6 +12,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "flexsearch": "^0.8.212"
+    "flexsearch": "^0.8.212",
+    "jsxgraph": "^1.12.2"
   }
 }

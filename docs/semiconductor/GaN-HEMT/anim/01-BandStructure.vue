@@ -9,10 +9,11 @@ import {
 } from 'vue';
 
 
-import JXG from 'jsxgraph';
 
 
-onMounted(() => {
+
+onMounted(async () => {
+    const JXG = (await import('jsxgraph')).default;
     const board = JXG.JSXGraph.initBoard("jxgbox", {
         boundingBox: [-10, 5, 10, -5],
         showCopyright: false,

@@ -178,7 +178,7 @@ $$\vec{D} = \varepsilon \vec{E} + \vec{P}$$
 **断言4**：在远离表面的位置观察，载流子可视作面电荷。
 
 **断言5**：在远离表面的位置观察，载流子的面密度$Q_S$有
-$$\frac{\partial E_0}{\partial x} = E_{dp} - \frac{Q_C}{\varepsilon}$$
+$$\frac{\partial E_0}{\partial x} = E_{dp} - \frac{Q_S}{\varepsilon}$$
 
 **断言6**：由于退极化场$E_{dp}$不变，能带**斜率的变化量**正比于载流子的数量。
 

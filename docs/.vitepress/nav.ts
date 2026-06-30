@@ -13,6 +13,15 @@ const nav: NavItem[] = [
         text: '半导体物理', items: [
             { text: 'GaN HEMT', link: '/semiconductor/GaN-HEMT/' },
         ]
+    },
+    {
+        text: 'TCAD 代码生成', items: [
+            {
+                text: 'Sentaurus', items: [
+                    { text: 'SDE', link: '/tcad-script-gen/sentaurus/SDE/' }
+                ]
+            }
+        ]
     }
 ]
 

@@ -15,9 +15,10 @@ import { DefaultTheme } from "vitepress";
 
 const sidebar: DefaultTheme.Sidebar = {
     '/tcad-script-gen/sentaurus/SDE/': [{
-        text: "Sentaurus SDE",
+        text: "Sentaurus SDE 脚本生成",
         items: [
             { text: '介绍', link: '/tcad-script-gen/sentaurus/SDE/index.md' },
+            { text: '安装配置', link: '/tcad-script-gen/sentaurus/SDE/install.md' },
             { text: '快速开始', link: '/tcad-script-gen/sentaurus/SDE/quick-start.md' },
             {
                 text: 'API 参考',

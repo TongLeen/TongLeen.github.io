@@ -61,3 +61,6 @@ source ~/.bashrc
 ```sh
 curl -fsSL https://blog.tongleen.art/sentaurus_bun_integrate.bash | bash
 ```
+
+
+点击 <a href="/sentaurus_bun_integrate.bash" target="_blank">这里</a> 可以查看安装脚本

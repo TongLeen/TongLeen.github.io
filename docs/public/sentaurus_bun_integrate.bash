@@ -45,16 +45,13 @@ MARKER_END='# ==== Bun End ===='
 TARGET_FILE="$STDB/tooldb_$USER"
 
 if grep -q "$MARKER_START" $TARGET_FILE; then
-    # 存在标记：删除从开始标记到结束标记之间的内容，然后插入新内容
     sed -i.bak "/$MARKER_START/,/$MARKER_END/d" $TARGET_FILE
-    # 把新内容（带标记）追加进去
     {
         echo "$MARKER_START"
         printf '%s\n' "$NEW_CONTENT"
         echo "$MARKER_END"
     } >> $TARGET_FILE
 else
-    # 不存在标记：直接在文件末尾追加带标记的完整块
     {
         echo ""
         echo "$MARKER_START"

@@ -20,6 +20,7 @@ const sidebar: DefaultTheme.Sidebar = {
             { text: '介绍', link: '/tcad-script-gen/sentaurus/SDE/index.md' },
             { text: '安装配置', link: '/tcad-script-gen/sentaurus/SDE/install.md' },
             { text: '快速开始', link: '/tcad-script-gen/sentaurus/SDE/quick-start.md' },
+            { text: '在 SWB 中使用', link: '/tcad-script-gen/sentaurus/SDE/use-in-swb.md' },
             {
                 text: 'API 参考',
                 collapsed: true,

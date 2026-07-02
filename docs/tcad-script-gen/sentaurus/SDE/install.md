@@ -59,5 +59,5 @@ source ~/.bashrc
 
 在终端输入
 ```sh
-curl -fsSL https://blog.tongleen.art/sentaurus_bun_integrate.bash
+curl -fsSL https://blog.tongleen.art/sentaurus_bun_integrate.bash | bash
 ```

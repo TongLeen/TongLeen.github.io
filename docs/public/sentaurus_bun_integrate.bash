@@ -65,4 +65,4 @@ fi
 
 
 
-curl -fsSLO https://blog.tongleen.art/bun_logo.gif
+curl -fsSL https://blog.tongleen.art/bun_logo.gif -o $ROOT/bun_logo.gif

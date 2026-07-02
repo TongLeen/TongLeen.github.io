@@ -40,7 +40,7 @@ import { useSde, position } from "@tongleen/tcad-script-gen";
 // 创建 SDE 脚本上下文（M = 材料类型联合, D = 掺杂剂类型联合）
 type Material = "Silicon" | "Oxide" | "Metal"
 type Dopant = "BoronActiveConcentration" | "ArsenicActiveConcentration"
-const { draw, contact, dop, mesh, save, run } = useSde<Material, Dopant>();
+const { draw, contact, dop, mesh, save, runAndExit } = useSde<Material, Dopant>();
 
 // --- 绘图 ---
 draw.setCoordMode('y_down')

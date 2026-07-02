@@ -26,11 +26,12 @@ const sidebar: DefaultTheme.Sidebar = {
                 collapsed: true,
                 items: [
                     { text: 'API 总览', link: '/tcad-script-gen/sentaurus/SDE/api/' },
-                    { text: 'Draw', link: '/tcad-script-gen/sentaurus/SDE/api/draw.md' },
-                    { text: 'Contact', link: '/tcad-script-gen/sentaurus/SDE/api/contact.md' },
-                    { text: 'Dop', link: '/tcad-script-gen/sentaurus/SDE/api/dop.md' },
-                    { text: 'Mesh', link: '/tcad-script-gen/sentaurus/SDE/api/mesh.md' },
-                    { text: 'Utils', link: '/tcad-script-gen/sentaurus/SDE/api/utils.md' },
+                    { text: '入口函数 useSde()', link: '/tcad-script-gen/sentaurus/SDE/api/useSde.md' },
+                    { text: 'Draw 模块', link: '/tcad-script-gen/sentaurus/SDE/api/draw.md' },
+                    { text: 'Contact 模块', link: '/tcad-script-gen/sentaurus/SDE/api/contact.md' },
+                    { text: 'Dop 模块', link: '/tcad-script-gen/sentaurus/SDE/api/dop.md' },
+                    { text: 'Mesh 模块', link: '/tcad-script-gen/sentaurus/SDE/api/mesh.md' },
+                    { text: 'Utils 模块', link: '/tcad-script-gen/sentaurus/SDE/api/utils.md' },
                 ]
             }
         ]

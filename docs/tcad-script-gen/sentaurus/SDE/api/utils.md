@@ -15,6 +15,8 @@ position(x: number, y: number, z: number = 0);
 
 // 方法
 pos.shift({ x, y, z });   // 位移，返回新 Position
+pos.shiftX(x);            // X方向位移，返回新 Position
+pos.shiftY(y);            // Y方向位移，返回新 Position
 pos.add(otherPos);         // 加法
 pos.midpoint(otherPos);    // 中点
 

@@ -118,3 +118,7 @@ bun run str_gen.ts
 
 这将生成 `output.cmd` 文件，可直接在 Sentaurus SDE 中加载执行。
 
+## 使用 Agent Skill
+
+现已发布针对该库的 Agent Skill：[发布页](https://skillhub.cn/skills/tcad-script-gen)
+

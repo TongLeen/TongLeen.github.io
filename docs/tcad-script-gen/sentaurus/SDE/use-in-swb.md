@@ -12,7 +12,7 @@ outline: deep
 
 如果一切正常，在工具界面的底部，将会出现一个包子 Logo
 
-![Bunjs Logo](/bun_logo.gif)
+![Bunjs Logo](/sentaurus_bun/bunstr_logo.gif)
 
 它是 `Bun` 工具，我们所有操作都将在它当中进行
 > 不需要添加 `SDE` ，`Bun` 可以在内部调用 `SDE` 以实现网格生成

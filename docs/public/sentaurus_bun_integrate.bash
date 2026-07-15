@@ -4,39 +4,15 @@ ROOT="$HOME/.tcad-script-gen"
 
 mkdir -p $ROOT
 
-cat > "$ROOT/tooldb_bun" <<'EOF'
-# tool: Bun
-set WB_tool(Bun,category) utility
-set WB_tool(Bun,visual_category) utility
-set WB_tool(Bun,acronym) bun
-set WB_tool(Bun,after) all
-set WB_tool(Bun,cmd_line) /bin/env\ bun\ @commands@
-set WB_binaries(tool,Bun) /bin/env
-set Icon(Bun) $env(HOME)/.tcad-script-gen/bun_logo.gif
-set WB_tool(Bun,input) [list commands pref]
-set WB_tool(Bun,input,commands,label)  "Bun Script..."
-set WB_tool(Bun,input,commands,editor)  text
-set WB_tool(Bun,input,commands,file)  @tool_label@.ts
-set WB_tool(Bun,input,pref,label)  "Preferences..."
-set WB_tool(Bun,input,pref,editor)  pref
-set WB_tool(Bun,input,pref,file)  @tool_label@_bun.prf          
-set WB_tool(Bun,output) [list code]
-set WB_tool(Bun,output,code,file) n@node@_gen.cmd
-set WB_tool(Bun,output,files) "n@node@_* pp@node@_*"
-set WB_tool(Bun,epilogue) { extract_vars "$nodedir" @stdout@ @node@ }
-set WB_tool(Bun,available) { check_binary_path Bun }
-lappend WB_tool(all) Bun
-EOF
-
 
 NEW_CONTENT='
 # DO NOT edit
 
 # tool: Bun
 if {[file exists "$env(HOME)/.tcad-script-gen/tooldb_bun"]} {
-    source $env(HOME)/.tcad-script-gen/tooldb_bun
+    source $env(HOME)/.tcad-script-gen/tooldb_bun.tcl
 } else {
-    puts "Warning: $env(HOME)/.tcad-script-gen/tooldb_bun not found"
+    puts "Warning: $env(HOME)/.tcad-script-gen/tooldb_bun.tcl not found"
 }
 '
 
@@ -62,4 +38,6 @@ fi
 
 
 
-curl -fsSL https://blog.tongleen.art/bun_logo.gif -o $ROOT/bun_logo.gif
+curl -fsSL https://blog.tongleen.art/sentaurus_bun/bun_logo.gif -o $ROOT/bun_logo.gif
+curl -fsSL https://blog.tongleen.art/sentaurus_bun/bundevice_logo.gif -o $ROOT/bundevice_logo.gif
+curl -fsSL https://blog.tongleen.art/sentaurus_bun/bunstr_logo.gif -o $ROOT/bunstr_logo.gif

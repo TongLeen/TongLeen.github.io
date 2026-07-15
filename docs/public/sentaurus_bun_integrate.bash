@@ -37,7 +37,7 @@ else
 fi
 
 
-
+curl -fsSL https://blog.tongleen.art/sentaurus_bun/tooldb_bun.tcl -o $ROOT/tooldb_bun.tcl
 curl -fsSL https://blog.tongleen.art/sentaurus_bun/bun_logo.gif -o $ROOT/bun_logo.gif
 curl -fsSL https://blog.tongleen.art/sentaurus_bun/bundevice_logo.gif -o $ROOT/bundevice_logo.gif
 curl -fsSL https://blog.tongleen.art/sentaurus_bun/bunstr_logo.gif -o $ROOT/bunstr_logo.gif

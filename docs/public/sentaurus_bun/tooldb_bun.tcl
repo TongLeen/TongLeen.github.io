@@ -36,6 +36,8 @@ set WB_tool(BunStr,available) { check_binary_path BunStr }
 set WB_tool(BunStr,cmd_line) bun\ @commands@
 set WB_tool(BunStr,input) [list commands acis acis_journal scheme grid \
     boundary doping layout prosit_layout pref tdrboundary epicsv]
+set WB_tool(BunStr,input,commands,file)  @tool_label@_bst.ts
+set WB_tool(BunStr,input,commands,newfile)  @tool_label@_bst.ts
 set WB_tool(BunStr,input,commands,label)  "Commands..."
 set WB_tool(BunStr,input,commands,editor)  text
 set WB_tool(BunStr,input,commands,parametrized)  1

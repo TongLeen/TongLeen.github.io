@@ -9,7 +9,7 @@ NEW_CONTENT='
 # DO NOT edit
 
 # tool: Bun
-if {[file exists "$env(HOME)/.tcad-script-gen/tooldb_bun"]} {
+if {[file exists "$env(HOME)/.tcad-script-gen/tooldb_bun.tcl"]} {
     source $env(HOME)/.tcad-script-gen/tooldb_bun.tcl
 } else {
     puts "Warning: $env(HOME)/.tcad-script-gen/tooldb_bun.tcl not found"
